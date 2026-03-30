@@ -1,0 +1,115 @@
+/*Padrao */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background: #fff;
+  color: #333;
+}
+/*----------------------------------*/
+
+/* Estilos do Logo e do Menu e Navegação */
+.header {
+  background: #f6b3cf;
+  text-align: center;
+}
+
+.logo {
+  max-width: 450px;
+}
+
+  .nav {
+  background: #f097be; /* COR DE FUNDO DA BARRA DE NAVEGAÇÃO */
+  padding: 19px 0; /* DISTANCIA DO TEXTO PARA CIMA E PARA BAIXO */
+  }
+.nav a {
+  margin: 0 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+/*Acabou */
+
+/*---------------iNFOS-------------------*/
+.inicio {
+  background: #fff;
+}
+
+.inicio-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.inicio-texto h1 {
+  font-size: 40px;
+  color: #f39ac1;
+  margin-bottom: 10px;
+}
+
+.inicio-texto p {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+}
+
+.inicio-foto img {
+  width: 400px;
+}
+
+/* -------- CARDS -------- */
+.cards-info {
+  max-width: 1100px;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.card-info {
+  border: 3px solid #f39ac1;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.card-info h2 {
+  color: #f39ac1;
+  margin-bottom: 10px;
+}
+
+.card-info p {
+  color: #555;
+  font-size: 15px;
+}
+/*-----------credito---------------------*/
+
+.credito {
+  width: 100%;
+  background: #f39ac1;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+  font-family: Arial;
+}
+
+.credito a {
+ font-size:15px;
+  opacity: 0.90;
+  color:rgb(255, 255, 255);
+  text-decoration:none;
+}
+.credito a:hover {
+  opacity: 0.6;
+}
+
+
+
+/*----------------------------------*/

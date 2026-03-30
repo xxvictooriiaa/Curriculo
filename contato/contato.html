@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato</title>
+  <link rel="stylesheet" href="contato.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- Início do Menu e Logo -->
+<header class="header">
+  <img src="../imagens/logo.png" alt="Vitória Caroline" class="logo">
+
+  <nav class="nav">
+    <a href="../index.html">Voltar</a>
+  </nav>
+</header>
+<!-- Fim do Menu e Logo -->
+
+<section class="contato">
+  <h1>Contato</h1>
+  <p class="contato-texto">
+    Para entrar em contato, é só deixar sua mensagem aqui!
+  </p>
+
+  <!-- FORM SEM ACTION -->
+  <form id="formContato" class="form-contato">
+
+    <input type="hidden" name="_captcha" value="false">
+
+    <input type="text" name="name" placeholder="Seu nome" required>
+    <input type="email" name="email" placeholder="Seu email" required>
+    
+    <textarea name="message" placeholder="Escreva sua mensagem..." required></textarea>
+
+    <button type="submit">Enviar mensagem</button>
+  </form>
+
+  <!-- Mensagem de sucesso -->
+  <p id="msg" style="margin-top:10px; font-weight:bold;"></p>
+
+  <p class="texto-redes">Conecte-se comigo nas minhas redes sociais.</p>
+
+  <div class="redes">
+    <a href="https://instagram.com/byvictooriiaa" target="_blank">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+
+    <a href="https://tiktok.com/@byvictooriiaa" target="_blank">
+      <i class="fab fa-tiktok"></i> TikTok
+    </a>
+
+    <a href="https://github.com/xxvictooriiaa" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+
+    <a href="mailto:byvictooriiaa@gmail.com">
+      <i class="fas fa-envelope"></i> Email
+    </a>
+  </div>
+</section>
+
+<script src="contato.js"></script>
